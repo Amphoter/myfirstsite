@@ -1,0 +1,9 @@
+def calculator(num1, num2, op):
+    if op == '+':
+        return int(num1) + int(num2)
+    if op == '-':
+        return int(num1) - int(num2)
+    if op == '*':
+        return int(num1) * int(num2)
+    if op == '/':
+        return float(num1) / float(num2)
